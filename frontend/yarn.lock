@@ -2740,7 +2740,7 @@
 
 "@usedapp/core@^1.2.13":
   version "1.2.13"
-  resolved "https://registry.npmjs.org/@usedapp/core/-/core-1.2.13.tgz"
+  resolved "https://registry.yarnpkg.com/@usedapp/core/-/core-1.2.13.tgz#221704d2d239b38d8c4782a195607af9e824e6ed"
   integrity sha512-mlWIIXvWdu+f3J0DCNNiPd9blTzuknQvTNy0yX61x/XDoZNqoPfs+0ALMndvmPKN8VMNbo0fwTjoR3R8rNfx9g==
   dependencies:
     "@metamask/detect-provider" "^2.0.0"
