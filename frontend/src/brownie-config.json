@@ -1,1 +1,25 @@
-{"dependencies": ["OpenZeppelin/openzeppelin-contracts@4.2.0", "smartcontractkit/chainlink@2.5.0"], "compiler": {"solc": {"remappings": ["@openzeppelin=OpenZeppelin/openzeppelin-contracts@4.2.0", "@chainlink=smartcontractkit/chainlink@2.5.0"]}}, "wallets": {"from_key": "${PRIVATE_KEY}"}, "networks": {"sepolia": {"wethToken": "0x7C0120c939CBe0e0a4586a26d54f3d816DE168Fa", "stsToken": "0x308eF5cC18E4e612343124AE316bc78A4ad4cFdE", "eth_usd_price_feed": "0x694AA1769357215DE4FAC081bf1f309aDC325306", "dai_usd_price_feed": "0x14866185B1962B63C3Ea9E03Bc1da838bab34C19"}}}
+{
+    "dependencies": [
+        "OpenZeppelin/openzeppelin-contracts@4.2.0",
+        "smartcontractkit/chainlink@2.5.0"
+    ],
+    "compiler": {
+        "solc": {
+            "remappings": [
+                "@openzeppelin=OpenZeppelin/openzeppelin-contracts@4.2.0",
+                "@chainlink=smartcontractkit/chainlink@2.5.0"
+            ]
+        }
+    },
+    "wallets": {
+        "from_key": "${PRIVATE_KEY}"
+    },
+    "networks": {
+        "sepolia": {
+            "wethToken": "0x7C0120c939CBe0e0a4586a26d54f3d816DE168Fa",
+            "stsToken": "0x308eF5cC18E4e612343124AE316bc78A4ad4cFdE",
+            "eth_usd_price_feed": "0x694AA1769357215DE4FAC081bf1f309aDC325306",
+            "dai_usd_price_feed": "0x14866185B1962B63C3Ea9E03Bc1da838bab34C19"
+        }
+    }
+}
