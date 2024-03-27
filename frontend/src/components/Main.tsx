@@ -3,9 +3,10 @@ import { constants } from "ethers"
 import helperConfig from "../helper-config.json"
 import brownieConfig from "../brownie-config.json"
 import networkMapping from "../chain-info/deployments/map.json"
-import pepeThink from "../pepethink.png"
+import dapp from "../pepethink.png"
 import eth from "../eth.png"
 import dai from "../dai.png"
+import { YourWallet } from './YourWallet';
 
 
 export type Token = {
@@ -31,7 +32,7 @@ export const Main = () => {
 
     const supportedTokens : Array<Token> = [
         {
-            image: pepeThink,
+            image: dapp,
             address: dappTokenAddress,
             name: "Dapp"
         },
@@ -47,5 +48,7 @@ export const Main = () => {
         }
     ]
 
-    return (<div>Im Main!</div>)
+    return (<>
+        <YourWallet supportedTokens={supportedTokens}/>
+    </>)
 }
