@@ -30,6 +30,10 @@ export const Main = () => {
     const wethTokenAddress = networkConfig && "wethToken" in networkConfig ? networkConfig["wethToken"] : constants.AddressZero
     const stsTokenAddress = networkConfig && "stsToken" in networkConfig ? networkConfig["stsToken"] : constants.AddressZero
 
+    console.log(dappTokenAddress)
+    console.log(wethTokenAddress)
+    console.log(stsTokenAddress)
+
     const supportedTokens : Array<Token> = [
         {
             image: dapp,
